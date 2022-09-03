@@ -1,0 +1,213 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Desarrollo WEB</title>
+ </head>
+ <body>
+    <!-- SECCION DE INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>DEV</h1>
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="#inicio" class="seleccionado">INICIO</a></li>
+                                <li><a href="#sobremi">SOBRE MI</a></li>
+                                <li><a href="#servicios">TECNOLOGÍAS</a></li>
+                                <li><a href="#portafolio">PORTAFOLIO</a></li>
+                                <li><a href="#contacto">LINKEDIN</a></li>
+                            </ul>
+                        </nav>
+                        <!-- ICONOS MENU -->
+                        <div id="icono-nav" onclick="responsiveMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <!-- ICONOS REDES SOCIALES -->
+                        <div class="redes">
+                            <a href="https://www.linkedin.com/in/carlos-escobar-639718237/" ><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="Bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Carlos Chávez</span>, Desarollador WEB</h2>
+                <p class="descripcion">HTML, CSS, React, Javascript. </p>
+                <a href="#portafolio"> Ir a  Portafolio</a>
+            </div>
+        </div>
+    </section>
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="Mi foto">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola soy <span>Carlos Chávez</span></h2>
+            <h3>Desarollador web</h3>
+            <p>Hola soy Carlos, Web developer. Una de mis pasiones es  aprender cosas nuevas. 
+                He programado microcontroladores  en lenguajes como C o lenguaje ensamblador. He usado tecnologías Micros AVR, PIC y sistemas embebidos como PSoc. </p>
+            <p>Recientemente participe en la creación de la aplicación "Tumusah", una aplicación web en React, que busca conectar músicos con posibles clientes.</p>     
+            <p>Soy autodidacta y he participado en equipos de trabajo; espero seguir aprendiendo del mundo de la programación y la tecnología.</p>
+            <!-- <a href="#">Descargar CV</a>     -->
+            </div>
+    </section>
+
+    <!--    SECCION TECNOLOGIAS  -->
+    <section id="servicios">
+        <h3 class="titulo-seccion"> Tecnologías</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-html5 sizing"></i></span>
+                <h4> &nbsp;  &nbsp; HTML &nbsp; &nbsp;</h4>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-css3"></i></span>
+                <h4>&nbsp; &nbsp; &nbsp; CSS &nbsp; &nbsp; &nbsp;</h4>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-bootstrap"></i></span>
+                <h4>Bootstrap</h4>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-sass"></i></span>
+                <h4>&nbsp; &nbsp; &nbsp;Sass&nbsp; &nbsp; &nbsp; &nbsp;</h4>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-react"></i></span>
+                <h4> &nbsp; &nbsp;React &nbsp; &nbsp; &nbsp;</h4>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-js"></i></span>
+                <h4>Javascript</h4>
+            </div>
+        </div>
+    </section>
+ 
+      <!--    SECCION PORTAFOLIO  -->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://music-app-front-end-six.vercel.app/"><img src="img/proyecto1.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Aplicación "Tumusah"</h4>
+                    <hr>
+                    <h5>Es una aplicación Web, que conecta músicos con potenciales clientes</h5>
+                    <h3>-</h3>
+                    <p>Tecnologías: React, css, Bootstrap, Sass, Javascript</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://react-devto-clon.vercel.app/"><img src="img/proyecto2.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Clon de pagina DEV</h4>
+                    <hr>
+                    <h5>Es un clon de la página de desarrollo y programación: DEV</h5>
+                    <h3>-</h3>
+                    <p>Tecnologías: React, Bootstrap, Javascript</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://dragonfire124.github.io/carrito.github.io/"><img src="img/proyecto3.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Carrito de compras</h4>
+                    <hr>
+                    <h5>Es un página de e-Commerce, de cursos on-line, el usuario agrega cursos a su carrito de compras</h5>
+                    <h3>-</h3>
+                    <p>Tecnologías: HTML, CSS, Javascript</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.JPG" alt="">
+                <div class="info">
+                    <h4>Buscador de autos</h4>
+                    <hr>
+                    <h5>Es una buscador de autos, que en una base de datos hace una busqueda por precio mínimo, precio máximo, año y modelo.</h5>
+                    <h3>-</h3>
+                    <p>Tecnologías: HTML, CSS, Javascript</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+               <a href="https://dragonfire124.github.io/buscadorautos.github.io/"><img src="img/proyecto5.JPG" alt=""></a> 
+                <div class="info">
+                    <h4>Cotizador de seguro de Autos</h4>
+                    <hr>
+                    <h5>Es un cotizador de seguro de autos, calculo los intereses a pagar por el cliente, según el seguro elegido</h5>
+                    <h3>-</h3>
+                    <p>Tecnologías: HTML, CSS, Javascript</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://dragonfire124.github.io/generadorcitas.github.io/"><img src="img/proyecto6.JPG" alt=""></a>
+                <div class="info">
+                    <h4>Generador de citas medicas</h4>
+                    <hr>
+                    <h5>Es un generador de citas para que los pacientes puedan agendar día y hora.</h5>
+                    <h3>-</h3>
+                    <p>Tecnologías: HTML, CSS, Javascript</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://dragonfire124.github.io/gastossemana.github.io/"><img src="img/proyecto7.JPG" alt=""></a>
+                <div class="info">
+                    <h4>Calculadora de Gastos semanales</h4>
+                    <hr>
+                    <h5>Calcula y lleva registro de los gastos semanales de una persona.</h5>
+                    <h3>-</h3>
+                    <p>Tecnologías: HTML, CSS, Javascript</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.JPG" alt="">
+                <div class="info">
+                    <h4>Álbum inventario</h4>
+                    <hr>
+                    <h5>Lleva un registro por imagen y nombre de ciertos productos o imágenes en forma de álbum.</h5>
+                    <h3>-</h3>
+                    <p>Tecnologías: HTML, CSS, Javascript</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://frontcitasrepo-5fuv39lix-dragonfire124.vercel.app/"><img src="img/proyecto9.JPG" alt=""></a>
+                <div class="info">
+                    <h4>Aplicación web de citas</h4>
+                    <hr>
+                    <h5>Aplicación que agenda citas medicas</h5>
+                    <h3>-</h3>
+                    <p>Tecnologías: React, Vite, Javascript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECCION FOOTER -->
+    <footer id="contacto">
+        <p> Todos los derechos reservados</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/carlos-escobar-639718237/" ><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+ </body>
+ </html>
